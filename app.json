@@ -2,14 +2,14 @@
   "expo": {
     "name": "luckybird",
     "slug": "luckybird",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#4C1D95"
+      "backgroundColor": "#4c1d95"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,7 +18,7 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 3,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#4C1D95"
@@ -34,7 +34,18 @@
         "projectId": "3298067e-992f-4cdd-a76c-84b33f06eab8"
       }
     },
-    "newArchEnabled": false
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#4c1d95",
+          "imageWidth": 200
+        }
+      ]
+    ]
   },
   "version": "1.0.1"
 }
