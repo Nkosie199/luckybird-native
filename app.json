@@ -2,14 +2,14 @@
   "expo": {
     "name": "luckybird",
     "slug": "luckybird",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#4c1d95"
+      "backgroundColor": "#F97316"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,10 +18,10 @@
       "supportsTablet": true
     },
     "android": {
-      "versionCode": 4,
+      "versionCode": 5,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#4C1D95"
+        "backgroundColor": "#F97316"
       },
       "package": "com.mynger.luckybird"
     },
@@ -41,7 +41,7 @@
         {
           "image": "./assets/splash-icon.png",
           "resizeMode": "contain",
-          "backgroundColor": "#4c1d95",
+          "backgroundColor": "#F97316",
           "imageWidth": 200
         }
       ]
